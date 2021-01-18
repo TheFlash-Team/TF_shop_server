@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates
+  datasource:
+    username: root
+    password: shopDb001
+    url: jdbc:mysql://shop-db-server.mysql.rds.aliyuncs.com:3306/yc_shop?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    static-path-pattern: /static/**
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.yc.shop_server.enyity
+
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
