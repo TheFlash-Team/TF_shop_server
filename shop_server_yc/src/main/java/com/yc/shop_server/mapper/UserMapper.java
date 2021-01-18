@@ -1,6 +1,7 @@
 package com.yc.shop_server.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
 import com.yc.shop_server.entity.User;
 import org.springframework.stereotype.Repository;
 

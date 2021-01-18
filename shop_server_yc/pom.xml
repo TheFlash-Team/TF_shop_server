@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yc</groupId>
-    <artifactId>shop_server</artifactId>
+    <artifactId>shop_server_yc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>shop_server</name>
+    <name>shop_server_yc</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
