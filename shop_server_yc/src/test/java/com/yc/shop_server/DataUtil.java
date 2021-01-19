@@ -2,7 +2,10 @@ package com.yc.shop_server;
 
 import org.junit.jupiter.api.Test;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.Date;
 
 public class DataUtil {
 
@@ -16,6 +19,13 @@ public class DataUtil {
         System.out.println("年："+now.getYear());
         System.out.println("月："+now.getMonth());
         System.out.println("日："+now.getDayOfMonth());
+        LocalTime now1 = LocalTime.now();
+        System.out.println(now1);
+        Date date = new Date();
+//        System.out.println(date);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String format1 = format.format(date);
+        System.err.println(format1);
     }
 
     /**

@@ -16,7 +16,7 @@ spring:
   datasource:
     username: root
     password: shopDb001
-    url: jdbc:mysql://shop-db-server.mysql.rds.aliyuncs.com:3306/yc_shop?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://shop-db-server.mysql.rds.aliyuncs.com:3306/yc_shop?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   mvc:
     static-path-pattern: /static/**
