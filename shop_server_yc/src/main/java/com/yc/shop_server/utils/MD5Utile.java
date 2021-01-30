@@ -1,4 +1,4 @@
-package com.yc.shop_server.config;
+package com.yc.shop_server.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

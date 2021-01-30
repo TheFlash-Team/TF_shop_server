@@ -1,10 +1,9 @@
-package com.yc.shop_server.config;
+package com.yc.shop_server.utils;
 
 import com.baomidou.mybatisplus.core.incrementer.IdentifierGenerator;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.reflection.SystemMetaObject;
-import org.springframework.stereotype.Component;
 
 import java.util.concurrent.atomic.AtomicLong;
 

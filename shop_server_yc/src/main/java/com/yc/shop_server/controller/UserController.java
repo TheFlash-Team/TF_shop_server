@@ -1,14 +1,11 @@
 package com.yc.shop_server.controller;
 
-import com.sun.org.apache.regexp.internal.RE;
-import com.yc.shop_server.config.MD5Utile;
+import com.yc.shop_server.utils.MD5Utile;
 import com.yc.shop_server.entity.User;
 import com.yc.shop_server.service.UserService;
-import org.apache.catalina.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
